@@ -1,0 +1,29 @@
+{
+ "points": [
+  {
+   "name": "student (1 sensor)",
+   "standalone": 0.633447751839796,
+   "pipeline": 0.8321775210290309
+  },
+  {
+   "name": "2-sensor avg",
+   "standalone": 0.7114266044651412,
+   "pipeline": 0.8401003462026034
+  },
+  {
+   "name": "3-sensor avg",
+   "standalone": 0.7279130988436195,
+   "pipeline": 0.8453530914617224
+  },
+  {
+   "name": "4-sensor avg",
+   "standalone": 0.7443184443826368,
+   "pipeline": 0.8470608629174577
+  },
+  {
+   "name": "4-sensor teacher",
+   "standalone": 0.758533715116597,
+   "pipeline": 0.7930354984700071
+  }
+ ]
+}

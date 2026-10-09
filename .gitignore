@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+/input
+/data
+/experiments
+/submissions
+*.log
+.env
+# generated outputs (built with make)
+/paper/figs/
+/paper/figdata/preds.npz
+/paper/figdata/headtilt.json

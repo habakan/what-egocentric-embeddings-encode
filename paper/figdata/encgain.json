@@ -1,0 +1,48 @@
+{
+ "_source": "egoexo_viewpose.py (within-take R^2, tilt+height+heading -> PC1-2), probe_body_scene.py / probe_limbpred.py / probe_wear_encoders.py (WEAR, features-only graph, 2 seeds) ; probe_layout_views.py (within-take, scene layout -> PC1-2)",
+ "encoders": [
+  "VideoMAEv2",
+  "CLIP",
+  "DINOv2"
+ ],
+ "ego_orient_pc12": [
+  0.488,
+  0.508,
+  0.578
+ ],
+ "exo_orient_pc12": [
+  0.068,
+  0.046,
+  0.195
+ ],
+ "sub_view": [
+  -0.0133,
+  -0.0092,
+  -0.0061
+ ],
+ "sub_appearance": [
+  0.0096,
+  0.0107,
+  0.0099
+ ],
+ "sub_top30": [
+  0.0116,
+  0.0176,
+  0.0167
+ ],
+ "wear_ego_layout_pc12": [
+  0.523,
+  0.613,
+  0.579
+ ],
+ "egoexo_ego_layout_pc12": [
+  0.595,
+  0.636,
+  0.721
+ ],
+ "egoexo_exo_layout_pc12": [
+  -0.227,
+  0.438,
+  0.46
+ ]
+}
