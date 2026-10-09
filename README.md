@@ -1,12 +1,18 @@
 # What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors
 
 Code for the paper *What Egocentric Video Embeddings Encode and How to Combine Them with Inertial
-Sensors for Human Activity Recognition* (arXiv: to be added; see [Citation](#citation)).
+Sensors for Human Activity Recognition*.
+Paper: [PDF (preprint)](paper/what-egocentric-embeddings-encode.pdf); an arXiv version will be posted soon (see [Citation](#citation)).
+
+![Teaser](assets/teaser.png)
+
+*(a) The leading principal components of a WEAR recording's video embedding follow where the camera looks.
+(b) The video links a clip to its nearest clips, which come from the same set but carry other limbs; averaging their
+inertial predictions corrects it. Frames from WEAR (Bock et al., 2024), CC BY-NC-SA 4.0, downscaled; this image is shared under CC BY-NC-SA 4.0.*
 
 The repository reproduces every table and figure of the paper: the analysis of what pretrained
 encoders capture from head-camera footage (Section 3), the method that propagates inertial predictions
 over a within-participant video graph (Section 5) and all results (Section 7 and appendices).
-Comments and docstrings in the scripts are in Japanese.
 
 ## Setup
 
@@ -127,7 +133,8 @@ The paper is on arXiv: *to be added*. Until then, please cite it as
 ## Licence
 
 The code is released under the MIT Licence (see `LICENSE`). It contains no data and no model
-weights. The datasets and pretrained models it uses keep their own terms, which apply when you
+weights. The figures (`assets/teaser.png` and those in the paper PDF) contain frames from WEAR and are
+shared under CC BY-NC-SA 4.0, not under the MIT Licence. The datasets and pretrained models it uses keep their own terms, which apply when you
 download them: the WEAR dataset and challenge data (CC BY-NC-SA 4.0), Ego-Exo4D (its licence
 agreement), VC-1 (CC BY-NC 4.0), and the licences of VideoMAEv2, CLIP, DINOv2, SegFormer and
 GeoCalib. The optional pose detector (`ultralytics`) is AGPL-3.0.
