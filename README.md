@@ -2,7 +2,7 @@
 
 Code for the paper *What Egocentric Video Embeddings Encode and How to Combine Them with Inertial
 Sensors for Human Activity Recognition*.
-Paper: [PDF (preprint)](paper/what-egocentric-embeddings-encode.pdf); an arXiv version will be posted soon (see [Citation](#citation)).
+Paper: [arXiv:2610.12926](https://arxiv.org/abs/2610.12926) ([PDF in this repository](paper/what-egocentric-embeddings-encode.pdf); see [Citation](#citation)).
 
 ![Teaser](assets/teaser.png)
 
@@ -118,15 +118,15 @@ Every script adds all `src/*/` folders to its import path, so it runs from any f
 
 ## Citation
 
-The paper is on arXiv: *to be added*. Until then, please cite it as
-
 ```bibtex
 @misc{habano2026egocentric,
-  author = {Habano, Kansuke},
-  title  = {What Egocentric Video Embeddings Encode and How to Combine Them with Inertial
-            Sensors for Human Activity Recognition},
-  year   = {2026},
-  note   = {arXiv preprint, identifier to be added}
+  author        = {Habano, Kansuke},
+  title         = {What Egocentric Video Embeddings Encode and How to Combine Them with Inertial
+                   Sensors for Human Activity Recognition},
+  year          = {2026},
+  eprint        = {2610.12926},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV}
 }
 ```
 
